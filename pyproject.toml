@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "grmtaskssearch"
+version = "0.1.0"
+description = ""
+authors = ["yurylabko <yuryLabko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pendulum = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
